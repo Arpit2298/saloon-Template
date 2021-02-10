@@ -385,7 +385,57 @@ footer {
 }
 
 
-/* .............................Services..................................... */
+/* .............................Gallery..................................... */
+
+.gallery1 {
+    overflow: auto;
+    /* background-color: burlywood; */
+}
+
+
+/* .......................................About Us................................................. */
+
+.service_content {
+    width: 100%;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.service_row {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.service_col {
+    width: 47%;
+}
+
+.service_col p {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    color: #7e7e7e;
+    line-height: 1.5;
+    font-weight: 100;
+    text-align: left;
+}
+
+.service_col h3 {
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 1;
+    padding: 10px;
+    border-radius: 5px 5px;
+    background-color: #7e7e7e17;
+}
+
+.service_col img {
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    border-radius: 5px 5px;
+}
 
 
 /* .........................................Contact Us.......................................... */
@@ -452,7 +502,7 @@ footer {
 }
 
 .contact_foot {
-    width: 75%;
+    width: 80%;
     overflow: auto;
     margin: auto;
     margin-left: 20%;
